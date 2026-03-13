@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="light-mode">
+    <div class="app-container">
+      <header>
+        <div class="header-inner">
+          <div class="header-top">
+            <h1>The K-Town Diner</h1>
+            <button id="theme-btn" class="theme-toggle">🌙</button>
+          </div>
+          <p id="subText">The best burgers and pizzas in town.</p>
+        </div>
+      </header>
+
+      <main id="menu-container"></main>
+
+      <section id="order-section" class="hidden">
+        <h2 class="section-title">Your order</h2>
+        <div id="order-items"></div>
+        <div id="discount-container"></div>
+        <div class="total-container">
+          <p>Total price:</p>
+          <p id="total-price"></p>
+        </div>
+        <button id="complete-order-btn" class="primary-btn">
+          Complete order
+        </button>
+      </section>
+
+      <div id="success-container" class="success-msg hidden"></div>
+    </div>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-inner">
+        <h3>Enter card details</h3>
+        <form id="payment-form">
+          <input
+            type="text"
+            name="userName"
+            placeholder="Enter your name"
+            required
+          />
+          <input
+            type="number"
+            name="cardNumber"
+            placeholder="Enter card number"
+            required
+            minlength="16"
+          />
+          <input
+            type="number"
+            name="cvv"
+            placeholder="Enter CVV"
+            required
+            minlength="3"
+          />
+          <button type="submit" class="primary-btn">Pay</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
