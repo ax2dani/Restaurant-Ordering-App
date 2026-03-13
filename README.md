@@ -32,6 +32,13 @@ A responsive, interactive food ordering application built as part of the **Scrim
 ## 📸 Preview
 <img width="757" height="908" alt="image" src="https://github.com/user-attachments/assets/58815336-d345-4fd9-9216-c0f68c5428de" />
 
+<img width="754" height="920" alt="image" src="https://github.com/user-attachments/assets/a8b12ebe-3730-4e93-abf4-827e4d731a21" />
+
+<img width="724" height="896" alt="image" src="https://github.com/user-attachments/assets/08d49665-455f-40d3-ba87-a9287192c3ca" />
+
+<img width="772" height="914" alt="image" src="https://github.com/user-attachments/assets/c2aaed60-c7ff-4e2e-9800-3b95a212db2f" />
+
+
 
 ## ⚙️ Setup
 
