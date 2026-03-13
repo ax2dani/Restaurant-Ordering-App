@@ -33,7 +33,9 @@ A responsive, interactive food ordering application built as part of the **Scrim
 
 | Desktop View | Dark Mode |
 | --- | --- |
-|  |  |
+| <img width="763" height="916" alt="image" src="https://github.com/user-attachments/assets/a0a4b43b-1c89-4b93-bf96-ad33d8ea65ce" />
+ | <img width="757" height="908" alt="image" src="https://github.com/user-attachments/assets/b8a363f1-acf1-4969-9ae7-4b9150a3a4c1" />
+ |
 
 ## ⚙️ Setup
 
