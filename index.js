@@ -35,9 +35,7 @@ document.addEventListener("click", function (e) {
   }
 });
 
-document
-  .getElementById("payment-form")
-  .addEventListener("submit", function (e) {
+document.getElementById("payment-form").addEventListener("submit", function (e) {
     e.preventDefault();
     const name = new FormData(this).get("userName");
     paymentModal.classList.add("hidden");
